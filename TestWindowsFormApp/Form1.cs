@@ -29,6 +29,8 @@ namespace TestWindowsFormApp
 
             var triGramResult = NGramsComparision.CompareStringsWithTriGram(string1, string2);
 
+            var diceResult = DiceCoefficient.DiceCoefficientCount(string1, string2);
+
             levenstainTxtBox.Text = (Math.Round(levenstainResult, 2) * 100).ToString();
             levenstainTxtBox.Text += '%';
 
@@ -37,6 +39,9 @@ namespace TestWindowsFormApp
 
             nGramTxtBox.Text = (Math.Round(triGramResult, 2) * 100).ToString();
             nGramTxtBox.Text += '%';
+
+            diceCoefficientTxtBox.Text = (Math.Round(diceResult, 2) * 100).ToString();
+            diceCoefficientTxtBox.Text += '%';
         }
 
         private void string1txtBox_TextChanged(object sender, EventArgs e)

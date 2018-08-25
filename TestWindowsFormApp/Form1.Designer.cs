@@ -39,6 +39,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.nGramTxtBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.diceCoefficientTxtBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // string1txtBox
@@ -102,7 +104,7 @@
             // 
             // jaroWinklerTxtBox
             // 
-            this.jaroWinklerTxtBox.Location = new System.Drawing.Point(238, 150);
+            this.jaroWinklerTxtBox.Location = new System.Drawing.Point(238, 132);
             this.jaroWinklerTxtBox.Name = "jaroWinklerTxtBox";
             this.jaroWinklerTxtBox.Size = new System.Drawing.Size(67, 20);
             this.jaroWinklerTxtBox.TabIndex = 7;
@@ -110,7 +112,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(83, 150);
+            this.label4.Location = new System.Drawing.Point(83, 135);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(109, 13);
             this.label4.TabIndex = 8;
@@ -118,7 +120,7 @@
             // 
             // nGramTxtBox
             // 
-            this.nGramTxtBox.Location = new System.Drawing.Point(238, 197);
+            this.nGramTxtBox.Location = new System.Drawing.Point(238, 158);
             this.nGramTxtBox.Name = "nGramTxtBox";
             this.nGramTxtBox.Size = new System.Drawing.Size(67, 20);
             this.nGramTxtBox.TabIndex = 9;
@@ -126,17 +128,35 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(83, 200);
+            this.label5.Location = new System.Drawing.Point(83, 161);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(86, 13);
             this.label5.TabIndex = 10;
             this.label5.Text = "nGrams Similarity";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(83, 187);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(82, 13);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Dice Coefficient";
+            // 
+            // diceCoefficientTxtBox
+            // 
+            this.diceCoefficientTxtBox.Location = new System.Drawing.Point(238, 184);
+            this.diceCoefficientTxtBox.Name = "diceCoefficientTxtBox";
+            this.diceCoefficientTxtBox.Size = new System.Drawing.Size(67, 20);
+            this.diceCoefficientTxtBox.TabIndex = 11;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.diceCoefficientTxtBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.nGramTxtBox);
             this.Controls.Add(this.label4);
@@ -168,6 +188,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox nGramTxtBox;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox diceCoefficientTxtBox;
     }
 }
 

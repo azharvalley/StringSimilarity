@@ -38,11 +38,11 @@ namespace StringSimilarity
 
         public static double CompareStringsWithTriGram(string source, string target)
         {
-            int nGramMatch = 0;
-            int nGramCount = target.Count();            
-
             List<string> _source = MakeTriGrams(source);
             List<string> _target = MakeTriGrams(target);
+
+            int nGramMatch = 0;
+            int nGramCount = _target.Count();
 
             foreach (var item in _target)
             {

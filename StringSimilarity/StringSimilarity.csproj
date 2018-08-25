@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DiceCoefficient.cs" />
     <Compile Include="JaroWinclerDistance.cs" />
     <Compile Include="LettersSimilarity.cs" />
     <Compile Include="LevenstainDistance.cs" />
