@@ -33,7 +33,6 @@ namespace StringSimilarity
             }
 
             return result;
-
         }
 
         public static double CompareStringsWithTriGram(string source, string target)

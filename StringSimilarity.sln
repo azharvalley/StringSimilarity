@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSimilarity", "StringS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWindowsFormApp", "TestWindowsFormApp\TestWindowsFormApp.csproj", "{48CDBAD7-7167-491D-BD6D-36B02AD731E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{3BC8A31A-51B1-486C-A025-40834CFC3A19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{48CDBAD7-7167-491D-BD6D-36B02AD731E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48CDBAD7-7167-491D-BD6D-36B02AD731E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48CDBAD7-7167-491D-BD6D-36B02AD731E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC8A31A-51B1-486C-A025-40834CFC3A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC8A31A-51B1-486C-A025-40834CFC3A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC8A31A-51B1-486C-A025-40834CFC3A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC8A31A-51B1-486C-A025-40834CFC3A19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
